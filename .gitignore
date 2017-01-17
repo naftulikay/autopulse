@@ -1,0 +1,12 @@
+/bin/
+/develop-eggs/
+/eggs/
+/parts/
+/src/autopulse.egg-info
+
+/.eggs/
+/.installed.cfg
+
+__pycache__
+*.pyc
+*.pyo
