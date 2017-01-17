@@ -8,6 +8,12 @@ matrix:
   allow_failures:
     - python: "3.4"
 
+
+cache:
+  pip: true
+  directories:
+    - eggs/
+
 before_install:
   - sudo apt-get update -qq && sudo apt-get install -y libpulse0
 
