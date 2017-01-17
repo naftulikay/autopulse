@@ -4,6 +4,10 @@ python:
   - "3.4"
   - "3.5"
 
+matrix:
+  allow_failures:
+    - python: "3.4"
+
 before_install:
   - sudo apt-get update -qq && sudo apt-get install -y libpulse0
 
