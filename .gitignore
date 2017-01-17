@@ -1,6 +1,7 @@
 /ansible/galaxy_roles/
 /bin/
 /develop-eggs/
+/dist/
 /eggs/
 /parts/
 /src/autopulse.egg-info
