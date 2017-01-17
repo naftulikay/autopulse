@@ -1,4 +1,4 @@
-# autopulse
+# autopulse [![Build Status][svg-build-status]][build-status]
 
 Script for dynamically changing your default PulseAudio sink on hotplug events for USB peripherals, etc.
 
@@ -57,3 +57,7 @@ be called, running as user `naftuli`.
 
 > **NOTE:** It's still unfortunately necessary to set `DISPLAY` so that the script can find the PulseAudio daemon. If
 > anyone knows a better solution for this, please send it my way.
+
+ [build-status]: https://travis-ci.org/naftulikay/autopulse
+
+ [svg-build-status]: https://travis-ci.org/naftulikay/autopulse.svg?branch=master
