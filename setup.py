@@ -11,8 +11,6 @@ setup(
     author = "Naftuli Kay",
     author_email = "me@naftuli.wtf",
     url = "https://github.com/naftulikay/autopulse",
-    setup_requires=['setuptools-markdown'],
-    long_description_markdown_filename='README.md',
     install_requires = [
         'setuptools',
         'pulsectl',
